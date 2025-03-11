@@ -1,0 +1,10 @@
+List.csv merupakan daftar belanja dan Price.csv merupakan daftar harga barang
+
+Penggunaan List.csv adalah dengan menambah 1 item setiap baris (Bukan setiap nama).
+
+Penggunaan Price.csv adalah dengan menambah Nama (index 0) dengan Harga (index 1) setiap baris.
+
+
+Note tambahan;
+Jika di uji coba menggunakan powershell, akan selalu menampilkan kode exit "-1073741510" sebelum berhasil.
+Penyebab tidak diketahui.
