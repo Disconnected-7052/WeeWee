@@ -1,0 +1,17 @@
+Logika Backtracking:
+- Eksplorasi Kombinasi: Mencoba semua kemungkinan kombinasi destinasi (1-3 lokasi)
+- Pemangkasan: Berhenti melanjutkan kombinasi jika melebihi budget
+- Rekursi: Menambahkan destinasi satu per satu dan kembali ke state sebelumnya jika gagal
+- Kriteria Valid: Hanya menyimpan kombinasi yang memenuhi syarat budget dan jumlah maksimal destinasi
+
+
+Analisis Backtracking:
+Kelebihan:
+1. Menjamin menemukan semua solusi yang mungkin
+2. Mudah diimplementasikan untuk dataset kecil
+3. Fleksibel untuk kriteria tambahan
+
+Kekurangan:
+1. Kompleksitas waktu O(2^n) untuk n destinasi
+2. Tidak efisien untuk dataset besar
+3. Hanya feasible untuk 4-5 destinasi
